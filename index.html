@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>✅ Todo List App</h1>
+        <div class="dark-mode-toggle">
+            <button id="darkModeBtn">🌑 Dark Mode</button>
+        </div>
+        <div class="inputBox">
+            <input type="text" id="inputBox" placeholder="Enter Task...">
+            <button id="add_btn">Add Task</button>
+        </div>
+
+        <div class="filters">
+            <button class="filter-btn" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="completed">Completed</button>
+            <button class="filter-btn" data-filter="uncompleted">Uncompleted</button>
+        </div>
+
+        <ul id="taskList"></ul>
+
+        <button id="clear">🚮 Clear All</button>
+    </div>
+
+    <script type="module" src="index.js"></script>
+</body>
+
+</html>
